@@ -20,28 +20,18 @@ To analyze employee data and provide insights such as:
 - Power BI (Data Visualization)
 - Pandas (Data Manipulation)
 
-
-
- 📁 Project Structure
+📁 Project Structure
 
 EMP_ANALYSIS/
-│
-├── python/
-│   └── load_clean.py
-│
-├── sql/
-│   └── employee_analysis.sql
-│
-├── powerbi/
-│   └── employee_dashboard.pbix
-│
-├── screenshots/
-│   └── dashboard.png
-│
-├── README.md
 
+data/ → Raw or processed datasets
+python/ → Python scripts for data cleaning and preprocessing (load_clean.py)
+sql/ → SQL scripts for data analysis (employee_analysis.sql)
+powerbi/ → Power BI dashboard file (employee_dashboard.pbix)
+screenshots/ → Dashboard images for visualization preview (dashboard.png)
+README.md → Project documentation
 
-
+ 
 
  🔄 Workflow
 1. Raw employee data collected
@@ -49,11 +39,6 @@ EMP_ANALYSIS/
 3. SQL queries used for analysis
 4. Data visualized using Power BI dashboard
 5. Business insights extracted
-
-
-
-📊 Dashboard Preview
-![Dashboard](screenshots/dashboard.png)
 
 
 
